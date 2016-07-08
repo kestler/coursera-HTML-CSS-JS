@@ -1,0 +1,51 @@
+body {
+	background-color: #e0e0e0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1.5px;
+}
+
+.navbar {
+	border-radius: 0;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+h1 {
+	font-weight: 700;
+	margin: 20px 0;
+}
+
+/* .menu-items {
+	margin-left: 15px;
+	margin-right: 15px;
+} */
+
+@media (max-width: 768px) {
+	.menu-items {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+}
+
+.menu-items article {
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+	margin-bottom: 30px;
+	padding: 15px;
+}
+
+.menu-items article h2 {
+	margin: 0 0 15px;
+}
+
+.menu-items article p.back-to-top {
+	color: #F44336;
+	margin: 0;
+}
+
+.menu-items article p.back-to-top a {
+	color: inherit;
+	text-decoration: none;
+}
