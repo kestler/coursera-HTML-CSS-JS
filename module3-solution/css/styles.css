@@ -25,6 +25,11 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: #F44336;
 }
 
+#main-content {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
 #main-content .glyphicon {
 	margin: 0 5px;
 }
@@ -35,13 +40,16 @@ h1 {
 }
 
 .menu-items article {
+	margin-bottom: 30px;
+}
+
+.menu-items .menu-item-container {
 	background-color: #ffffff;
 	box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-	margin-bottom: 30px;
 	padding: 15px;
 }
 
-.menu-items article h2 {
+.menu-items article h3 {
 	margin: 0 0 15px;
 }
 
